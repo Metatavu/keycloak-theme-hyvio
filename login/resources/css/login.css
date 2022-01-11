@@ -538,11 +538,11 @@ form#kc-select-back-form div.login-pf-social-section {
 }
 
 .btn-primary {
-  background-color: #000;
-  background-image: linear-gradient(to bottom,#000 0,#000 100%);
+  background-color: #FBBA18;
+  background-image: linear-gradient(to bottom,#FBBA18 0,#FBBA18 100%);
   background-repeat: repeat-x;
   border-width: 0;
-  color: #fff;
+  color: #000;
   border-radius: 50px;
   font-weight: 500;
   text-decoration: none;
@@ -552,7 +552,8 @@ form#kc-select-back-form div.login-pf-social-section {
 }
 
 .btn-primary:hover {
-  background-color: #FBBA18;
+  color: "#FBBA18";
+  background-color: #000;
 }
 
 .login-pf-page .login-pf-header h1 {
