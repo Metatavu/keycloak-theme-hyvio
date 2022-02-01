@@ -119,6 +119,7 @@ div.kc-logo-text span {
     line-height: 1.2em;
     padding: 62px 10px 20px;
     white-space: normal;
+    margin-top: 50px;
 }
 
 #kc-content {
@@ -370,6 +371,7 @@ a.zocial  {
     padding: 20px 60px 0 0;
     color: #72767b;
     letter-spacing: 0;
+    margin-top: 50px;
   }
 
   div.kc-logo-text {
@@ -604,15 +606,10 @@ form#kc-select-back-form div.login-pf-social-section {
   width: 150px;
   height: 60px;
   margin: 40px auto 0;
-  padding: 0
+  padding: 0;
+  margin-top: 50px;
 }
 
 .login-pf-page .login-pf-page-header {
   margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  #kc-header-wrapper {
-    margin-top: 200px
-  }
 }
