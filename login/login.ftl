@@ -41,9 +41,10 @@
                             <#if realm.resetPasswordAllowed>
                                 <span><a tabindex="5" href="${url.loginResetCredentialsUrl}">${msg("doForgotPassword")}</a></span>
                             </#if>
-                            <br/>
-                            <span><a tabindex="5" href="https://hyvio.fi/ongelmatilanne/">${msg("troubleLoggingIn")}</a></span>
-
+                            <br/>      
+                            <#if message?has_content && message.type == "error">
+                                <span><a tabindex="5" href="https://hyvio.fi/ongelmatilanne/">${msg("troubleLoggingIn")}</a></span>
+                            </#if>
                         </div> 
 
                   </div>
